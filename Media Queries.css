@@ -1,0 +1,62 @@
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 15px;
+    margin: 10px;
+    
+}
+h2 {
+    font-weight: 600;
+    padding: 15px;
+    margin: 10px;   
+}
+
+article { 
+    font-weight: 200;
+    padding: 15px;
+    margin: 10px;
+}
+
+/* voor laptops*/
+@media only screen and (min-width:769px) {
+    body {
+        padding: 15px;
+        background-color:blue;
+        font-size: 16px;
+        color: aliceblue;
+        display: flex;
+    }   
+}
+
+/* voor tablets*/
+@media only screen and (min-width:301px) and (max-width:768px) {
+    body {
+        padding: 15px;
+        background-color:green;
+        font-size: 13px;
+        display: flex;
+        flex-flow: row wrap;
+        color: chartreuse;
+}
+    .medium {
+        width: 66vw;
+        
+    }
+}
+
+/* voor smartphones*/
+@media only screen and (max-width:300px) {
+    body {
+        padding: 15px;
+        background-color: red;
+        font-size: 10px;
+        display: flex;
+        flex-flow:row wrap;
+        color: blueviolet;
+    }
+    .small {
+        width: 33%;
+        
+        
+    }
+}
